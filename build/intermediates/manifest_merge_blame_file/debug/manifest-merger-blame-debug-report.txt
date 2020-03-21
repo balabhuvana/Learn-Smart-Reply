@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="org.tensorflow.lite.examples.smartreply.SmartReply"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29
+30    <application
+30-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:20:3-37:17
+31        android:allowBackup="true"
+31-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:21:7-33
+32        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+32-->[com.android.support:support-compat:28.0.0] /Users/balamuruganselvam/.gradle/caches/transforms-2/files-2.1/72d23997b2ca208d1cf4402d4cf48df1/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:22:7-41
+35        android:label="@string/tfe_sr_app_name"
+35-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:23:7-46
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:25:7-52
+37        android:theme="@style/AppTheme.SmartReply" >
+37-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:24:7-49
+38        <activity
+38-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:27:5-36:16
+39            android:name="org.tensorflow.lite.examples.smartreply.MainActivity"
+39-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:28:9-37
+40            android:configChanges="orientation|keyboardHidden|screenSize"
+40-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:29:9-70
+41            android:screenOrientation="portrait"
+41-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:31:9-45
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:30:9-51
+43            <intent-filter>
+43-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:32:7-35:23
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:33:9-60
+44-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:33:17-58
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:34:9-68
+46-->/Users/balamuruganselvam/Documents/ML-Learning/examples-master/lite/examples/smart_reply/android/app/src/main/AndroidManifest.xml:34:19-66
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
